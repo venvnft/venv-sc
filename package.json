@@ -1,0 +1,27 @@
+{
+  "name": "venera",
+  "version": "1.0.0",
+  "description": "Smart contract serving as a marketplace for music in NFT format, facilitating sales and auctions for ERC721 and ERC1155 NFT.",
+  "main": "contracts/Venera.sol",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venvnft/venv-sc.git"
+  },
+  "author": "Kigrok",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/venvnft/venv-sc/issues"
+  },
+  "homepage": "https://venvnft.github.io/venvpage",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1",
+    "solidity-coverage": "^0.8.5"
+  }
+}
