@@ -1,56 +1,41 @@
-# DEMO [Venera](https://venvnft.github.io/venvpage) SmartContract
-![Venera](img/banner.jpeg)
-[![solidity - v0.8.22](https://img.shields.io/static/v1?label=solidity&message=v0.8.22&color=black&logo=solidity)](https://docs.soliditylang.org/en/v0.8.22/) [![NPM openzeppelin Package](https://img.shields.io/badge/@openzeppelin-5.0.1-black?logo=openzeppelin)](https://www.npmjs.org/package/@openzeppelin) [![NPM Hardhat Package](https://img.shields.io/badge/hardhat-2.19.2-black?logo=hardhat)](https://hardhat.org/) [![License](https://img.shields.io/badge/License-MIT-black.svg)]() [![Hardhat](https://img.shields.io/badge/Built%20with-Hardhat-FFDB1C.svg)](https://hardhat.org/)
-## [Venera](https://venvnft.github.io/venvpage) is a marketplace protocol for NFT music, facilitating sales and auctions for ERC721 and ERC1155 NFTs. 
-
-### See the [documentation](https://venera-1.gitbook.io/venera-1/) and [smart contract documentation](https://venera-1.gitbook.io/venera-smartcontract/) for more information on [Venera](https://venvnft.github.io/venvpage).
+---
+description: >-
+  The Venera smart contract is a decentralized platform designed for trading
+  music in the form of NFT. It is developed to facilitate the sale of NFTs
+  compliant with ERC721 and ERC1155.
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
-# Usage
- Here's how you can use the Venera smart contract:
-- [Sales](contracts/VeneraSale.sol): Initiate direct sales of NFTs by calling the sale function.
-- [Auctions](contracts/VeneraAuction.sol): Start auctions for NFTs using the auction or auctionMulti functions.
----
-# Test Coverage
+# Venera Smart Contract
 
-File                 |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
----------------------|----------|----------|----------|----------|----------------|
- contracts/          |      100 |    97.95 |      100 |      100 |                |
-  IVeneraAuction.sol |      100 |      100 |      100 |      100 |                |
-  IVeneraSale.sol    |      100 |      100 |      100 |      100 |                |
-  Libraries.sol      |      100 |      100 |      100 |      100 |                |
-  Modifiers.sol      |      100 |    95.45 |      100 |      100 |                |
-  Venera.sol         |      100 |      100 |      100 |      100 |                |
-  VeneraAuction.sol  |      100 |      100 |      100 |      100 |                |
-  VeneraCore.sol     |      100 |       75 |      100 |      100 |                |
-  VeneraSale.sol     |      100 |      100 |      100 |      100 |                |
- contracts/Test/     |    71.43 |    33.33 |    71.43 |    71.43 |                |
-  Test1155.sol       |       50 |       25 |    66.67 |       50 |             21 |
-  Test721.sol        |       80 |       50 |       75 |       80 |             28 |
----------------------|----------|----------|----------|----------|----------------|
-All files            |    98.37 |    95.39 |    96.72 |    98.53 |----------------|
----------------------|----------|----------|----------|----------|----------------|
----
-# Usage
-## Clone the Repository:
-```sh
-git clone https://github.com/venvnft/venv-sc
-```
-## Install Dependencies:
-```sh
-cd venv-sc
-npm i
-```
-## Test smartcontracts
-```sh
-npx hardhat test --parallel
-```
-## Test coverage tests
-```sh
-npx hardhat coverage
-```
----
-## License
+<figure><img src=".gitbook/assets/1.jpeg" alt=""><figcaption></figcaption></figure>
 
-[MIT](LICENSE) Copyright 2023 Venera, Inc.
+## Overview
 
+The [**Venera**](https://venvnft.github.io/venvpage/) smart contract consists of several key components:
+
+1. [**VeneraSale**](venerasale.md): A contract enabling the sale of **NFT**, including methods for initiating sales, setting prices, and validating trade conditions.
+2. [**VeneraAuction**](venaraauction.md): A contract for conducting **NFT** auctions. It implements methods for initiating auctions, placing bids, and finalizing auctions.
+3. [**Venera**](venera.md): Unifies the functionalities of [**VeneraSale**](venerasale.md) and [**VeneraAuction**](venaraauction.md), providing management capabilities for both sales and auctions of **NFT**.
+
+***
+
+## Purpose and Usage
+
+The [**Venera**](https://venvnft.github.io/venvpage/) smart contract is designed for:
+
+* **NFT Sales**: Facilitates the sale of digital artifacts in **NFT** format, both at fixed prices and through auctions.
+* **NFT Auctions**: Provides mechanisms for participating in auctions to purchase **NFT**.
+* **Security and Transparency**: All transactions are conducted in a secure and transparent blockchain environment.
+
+The [**Venera**](https://venvnft.github.io/venvpage/) smart contract prioritizes security and flexibility, empowering users to trade music in **NFT** format within a reliable decentralized ecosystem.
