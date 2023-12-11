@@ -1,5 +1,5 @@
 # DEMO [Venera](https://venvnft.github.io/venvpage) SmartContract
-![Venera](.giftbook/assets/1.jpeg)
+![Venera](.gitbook/assets/1.jpeg)
 [![solidity - v0.8.22](https://img.shields.io/static/v1?label=solidity&message=v0.8.22&color=black&logo=solidity)](https://docs.soliditylang.org/en/v0.8.22/) [![NPM openzeppelin Package](https://img.shields.io/badge/@openzeppelin-5.0.1-black?logo=openzeppelin)](https://www.npmjs.org/package/@openzeppelin) [![NPM Hardhat Package](https://img.shields.io/badge/hardhat-2.19.2-black?logo=hardhat)](https://hardhat.org/) [![License](https://img.shields.io/badge/License-MIT-black.svg)]() [![Hardhat](https://img.shields.io/badge/Built%20with-Hardhat-FFDB1C.svg)](https://hardhat.org/)
 ## [Venera](https://venvnft.github.io/venvpage) is a marketplace protocol for NFT music, facilitating sales and auctions for ERC721 and ERC1155 NFTs. 
 
