@@ -5,7 +5,6 @@
 
 ### See the [documentation](https://venera-1.gitbook.io/venera-1/) and [smart contract documentation](https://venera-1.gitbook.io/venera-smartcontract/) for more information on [Venera](https://venvnft.github.io/venvpage).
 ---
-
 # Usage
  Here's how you can use the Venera smart contract:
 - [Sales](contracts/VeneraSale.sol): Initiate direct sales of NFTs by calling the sale function.
